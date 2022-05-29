@@ -210,9 +210,10 @@ public class Question3 extends javax.swing.JFrame implements ManipulaJogo {
             enabledBotao(false);
         }
         questoesRespondidas = questoesRespondidas + 1;
+        if(btFalse1.isSelected() || btTrue1.isSelected()){
         Question4 proximaQuestao = new Question4(questoesRespondidas, pontuacao);
         proximaQuestao.setVisible(true);
-        
+      }
     }//GEN-LAST:event_btVerificaActionPerformed
         
     /**

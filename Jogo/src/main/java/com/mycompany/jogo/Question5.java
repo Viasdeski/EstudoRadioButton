@@ -223,9 +223,10 @@ public class Question5 extends javax.swing.JFrame implements ManipulaJogo {
         }
        
         questoesRespondidas = questoesRespondidas + 1;
+        if(btFalse1.isSelected() || btTrue1.isSelected()){
         ResultGame proximaQuestao = new ResultGame(questoesRespondidas, pontuacao);
         proximaQuestao.setVisible(true);
-        
+        }
     }//GEN-LAST:event_btVerificaActionPerformed
         
     /**
